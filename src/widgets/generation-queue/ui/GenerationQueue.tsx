@@ -43,7 +43,10 @@ export function GenerationQueue() {
   };
 
   return (
-    <main className="min-h-screen bg-era-bg px-4 py-6 text-era-fg sm:px-6 lg:px-10 lg:py-9">
+    <main
+      id="generation-queue"
+      className="min-h-screen bg-era-bg px-4 py-6 text-era-fg sm:px-6 lg:px-10 lg:py-9"
+    >
       <div className="mx-auto flex max-w-7xl flex-col gap-6">
         <header className="flex flex-col gap-5 rounded-4xl border border-era-line bg-era-bg-1 p-5 shadow-2xl shadow-black/30 sm:p-7 lg:flex-row lg:items-end lg:justify-between">
           <div>

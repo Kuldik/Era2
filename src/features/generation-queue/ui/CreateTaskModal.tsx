@@ -70,7 +70,7 @@ export function CreateTaskModal({
         <div className="mb-5 flex items-start justify-between gap-4">
           <div>
             <p className="model-text mb-2 text-xs font-semibold uppercase tracking-[0.22em] text-era-accent">
-              New generation
+              Новая генерация
             </p>
             <h2 className="text-2xl font-semibold text-era-fg">Создать задачу</h2>
           </div>
@@ -116,7 +116,7 @@ export function CreateTaskModal({
           </label>
 
           <label className="grid gap-2">
-            <span className="text-sm text-era-fg-dim">Prompt</span>
+            <span className="text-sm text-era-fg-dim">Запрос</span>
             <textarea
               value={prompt}
               onChange={(event) => setPrompt(event.target.value)}

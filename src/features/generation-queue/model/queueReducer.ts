@@ -310,7 +310,7 @@ export const queueReducer = (
     case "createTask": {
       return {
         ...state,
-        tasks: promoteNextQueued([...state.tasks, createQueuedTask(action.payload)]),
+        tasks: [...state.tasks, createQueuedTask(action.payload)],
       };
     }
 
